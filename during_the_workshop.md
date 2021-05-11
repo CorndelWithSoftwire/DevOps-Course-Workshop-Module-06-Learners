@@ -5,7 +5,7 @@
 Choose one of the following three scenarios:
 
 1. [Brief & user research report for Inner-city Travel Advisor](./scenarios/inner-city_travel_advisor.md)
-2. [Brief & user research report for Shared To-Do App](./scenarios/shared_to-do_app.md)
+2. [Brief & user research report for Project Management Tool](./scenarios/project_management.md)
 3. [Brief & user research report for Food Delivery App](./scenarios/food_delivery_app.md)
 
 Your choice of app brief comes with a summary of a report written by the user research department. You should study this document and get a feel for the various needs, profiles, and difficulties faced by the user-base of the application.
@@ -17,7 +17,7 @@ Decide on a tool for collaborating - you will need to record your findings, deci
 ### Step 2 - Create user personas for your application
 User personas are based on research data about the real-world users of your application, but there is often reason to theorise about portions of your user-base whose needs are not represented by your research. This latter form of consideration makes up speculative design. Use the user research report for your application, and any speculative design from your team to inform the creation of user personas for your service.
 
-You are aiming to capture all of the characteristics shown by your user-base. To do this, you would ideally create 3-5 user personas, but depending on how detailed your persona creation approach is, feel free to move on after creating just a single persona in order to start the beginning of Step 3 before lunch (you are aiming to just about start Step 3 before lunch).
+You are aiming to capture all of the characteristics shown by your user-base. To do this consider creating about 3-5 user personas, but it depends on how detailed your persona creation approach is, how diverse the userbase is, and how much overlap there is between personas.
 
 Your user personas should have:
 * A name/group (e.g. back-office staff)
@@ -26,34 +26,48 @@ Your user personas should have:
 * A job title, or their responsibilities 
 * Demographic information
     * In so far as is useful & relevant - you want to capture information about what might affect your user during operation of your app, and have enough information to bring the persona to life, but avoid lots of irrelevant information that can make you susceptible to bias.
-* Their context/environment - factors that affect how they use or respond to the app (e.g. physical patterns or limitations, social context, technological comfort)
-    * This is a very wide net - this spans usability concerns (Does the user require a screenreader? Is the user proficient in English? Does the user only have access to a basic phone?) through to social and psychological factors (e.g. the user is anxious and benefits from seeing real-time updates on their ticket).
+* Their context/environment - factors that affect how they use or respond to the app (e.g. physical patterns or limitations, social context, technological comfort). This is a very wide net - it spans:
+    * Do they use it in a work, home or public setting? Or while travelling with inconsistent mobile data?
+    * Usability concerns (Does the user require a screenreader? Is the user proficient in English? Does the user only have access to a basic phone?)
+* Social and psychological factors, such as:
+    * Anxious and benefits from seeing real-time updates on their ticket
+    * Attracted by an element of exclusivity
+    * 
 * Their goals in using the app, and their needs met in so doing
 
-### Step 3 - Create user journeys & user stories from these personas
-User journeys are descriptions of a user, the context affecting them, and the need of theirs that is met by your application (e.g. "*as an online shopper, who is a busy and multitasking stay-at-home mother, I want to make an online grocery shop with as little fuss as possible*"). A user journey should represent a fairly complex need for the user (i.e. it should include at least one decision point). It is often the case that user researchers will map a user journey in a more detailed format that enables them to explore the users' thoughts, concerns, and pain points, but for this exercise it will suffice for you to write a simple journey as per the example just given in this paragraph.
+### Step 3 - Create user journeys
+User journeys are descriptions of a user, the context affecting them, and the need of theirs that is met by your application (e.g. "*as an online shopper, who is a busy and multitasking stay-at-home mother, I want to make an online grocery shop with as little fuss as possible*"). A user journey should represent a fairly complex need for the user (i.e. it should include at least one decision point). 
+
+Read through your user personas - let these users come to life for you, and consider the core value statements in each persona. Having considered these, write at least one user journey. For this exercise, focus on the user journey that best explores the nuances in your user-base. Summarise it, similarly to the example above.
+
+User researchers will often map a user journey in a more detailed format that enables them to explore the users' thoughts, concerns, and pain points. Create a user journey map for your journey and a specific persona:
+
+1. Create a timeline - break down the journey into key phases and list the possible "touchpoints" (interactions with the product)
+1. In each phase, what are the user's motivations, expectations or feelings? What are the possible pain points?
+1. Identify opportunities - are there any feature ideas that would address a pain point? 
+
+If you have time, go through the process for different personas or journeys.
+
+### Step 4 - Create user stories
 
 User stories are lower-level versions of the above, whose assembled product may comprise enough functionality to fulfil a user journey (e.g. "*as an online shopper, when I've logged in to the website before, I want to be able to visit the site and immediately start shopping without having to login again, so I don't need to deal with unnecessary friction during my tasks*", or "*as an online shopper, when I have a shopping cart filled with the products I want, and when I am using an iPhone, I want to be able to pay with Apple Pay so I can complete my transaction without having to find my wallet*"). 
 
-Read through your user personas - let these users come to life for you, and consider the core value statements in each persona. Having considered these, write at least one user journey. For this exercise, we will be focusing on the user journey that best explores the nuances in your user-base.
-
-Once you have one user journey you are happy with (ideally one that explores the impact of different characteristics amongst your user-base), start writing out as many user stories as you can think of to capture the functionality required by your users along this journey. 
+Once you have one user journey you are happy with (ideally one that explores the impact of different characteristics amongst your user-base), write out some user stories as you can think of to capture the functionality required by your users along this journey. Try to cover some of the key ideas that were inspired by the user research results.
 
 User story writing tips:
-* You may find it helpful to start Step 4 in parallel (the user flow diagram) whilst writing out your user stories.
 * There is a balance to be made when considering the granularity of user stories. You want something that a developer can take and build (or break down into subtasks then build), but you also need to accurately enough capture what the user is getting out of this feature.
-* When writing "*I need to ... so ...*" consider also including "*I shouldn't <need to .../get returned to the main screen>*" to capture some of the nuances in which we need to meet the user's need.  
+* When writing "*I need to ... so ...*" consider also including "*I shouldn't <need to .../get returned to the main screen>*" to capture some of the nuances in which we need to meet the user's need.
 
-### Step 4 - Create user flow diagrams and wireframes
+### Step 5 - Create user flow diagrams and wireframes
 
 A user flow diagram is a flowchart that illustrates the user's path along their journey. This includes all interactions they'll need to make, actions they need to take, decisions they need to make, and any pain points encountered. You may discover as a result of creating a user flow diagram ways in which your service could be streamlined in order to provide the same service with less friction - if so, let that become part of your new design!
 
 A wireframe is a low fidelity representation of your application's UI (drawn within a box that represents the window of a web browser, or the frame of a phone display).
 
-You should make a user flow diagram that illustrates the user journey you've chosen.
+Make a user flow diagram that illustrates the user journey you've chosen.
 You should also build wireframes that illustrate screens and modals in your application, enough to cover all interactions and decision points that the user will experience on their journey.
 
-### Step 5 - Propose a technical architecture
+### Step 6 - Propose a technical architecture
 At this point, you have a much clearer idea of the characteristics of your user-base, and of the application you are trying to build. Make a list of the technical constraints that will impose on your architectural decisions - for the purposes of this exercise, you may make useful assumptions (but please document them as you do so). 
 
 Then, make a technical architecture proposal.
@@ -66,7 +80,7 @@ Please document all the design considerations you included, assumptions you made
 * What kind of feedback does the user require? Do they require real-time feedback or would an email later from a batch processing system suffice?
 * What components of your system need internet access, and which require only access to other components of your application?
 
-### Step 6 - Prepare a short presentation
+### Step 7 - Prepare a short presentation
 You will need to present your app design proposal to the "company stakeholders" (in actuality, you will present to the rest of your cohort). This presentation could take the form of some slides (if so, no more than 5), but could easily just be the members of your group talking through your Miro board (or other collaboration tool).
 
 The objectives of your presentation are as follows:
@@ -75,4 +89,3 @@ The objectives of your presentation are as follows:
 * Give a brief overview of the user stories whose implementation would result in the said user journey being realised, alongside any due considerations you made whilst writing these.
 * Show off your user flow diagram and wireframes, noting any points where you have managed to make your service streamlined, or cater for user needs.
 * Explain your technical architecture proposal: what constraints and usage profiles have you designed for, and how is your design justified by these?
-
