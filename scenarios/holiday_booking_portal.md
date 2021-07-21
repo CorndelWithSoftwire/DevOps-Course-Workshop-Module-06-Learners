@@ -1,4 +1,4 @@
-# Collaboration App
+# Holiday Booking Portal
 
 ## Brief
 You work for Widget Corp. Widget Corp has an existing website that allows users to book holidays - from flights to hotels to experiences. Traditionally users have booked holidays with Widget Corp for all-inclusive package deals, but increasingly they have noticed the user base booking individual aspects of the holiday, like accommodation without flights. Growth has slowed, and Widget Corp wants to invest in a new version of the application that more closely targets the needs of the new user-base that has been signing up. You have been asked to propose an initial design for this next-generation version of this application.
