@@ -52,7 +52,7 @@ If you have time, go through the process for different personas or journeys.
 
 User stories are lower-level versions of the above, whose assembled product may comprise enough functionality to fulfil a user journey (e.g. "*as an online shopper, when I've logged in to the website before, I want to be able to visit the site and immediately start shopping without having to login again, so I don't need to deal with unnecessary friction during my tasks*", or "*as an online shopper, when I have a shopping cart filled with the products I want, and when I am using an iPhone, I want to be able to pay with Apple Pay so I can complete my transaction without having to find my wallet*"). 
 
-Once you have one user journey you are happy with (ideally one that explores the impact of different characteristics amongst your user-base), write out some user stories as you can think of to capture the functionality required by your users along this journey. Try to cover some of the key ideas that were inspired by the user research results.
+Once you have one user journey you are happy with (ideally one that explores the impact of different characteristics amongst your user-base), write out a few user stories to capture the functionality required by your users along this journey. Try to cover some of the key ideas that were inspired by the user research results, which hopefully led to opportunities in the user journey map.
 
 User story writing tips:
 * There is a balance to be made when considering the granularity of user stories. You want something that a developer can take and build (or break down into subtasks then build), but you also need to accurately enough capture what the user is getting out of this feature.
