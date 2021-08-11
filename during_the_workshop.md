@@ -4,9 +4,9 @@
 ### Step 1 - Read your brief and user research report
 Choose one of the following three scenarios:
 
-1. [Brief & user research report for Inner-city Travel Advisor](./scenarios/inner-city_travel_advisor.md)
-2. [Brief & user research report for Project Management Tool](./scenarios/project_management.md)
-3. [Brief & user research report for Food Delivery App](./scenarios/food_delivery_app.md)
+1. [Brief & user research report for Holiday Booking Website](./scenarios/holiday_booking_portal.md)
+2. [Brief & user research report for Food Delivery App](./scenarios/food_delivery_app.md)
+3. [Brief & user research report for Inner-city Travel Advisor](./scenarios/inner-city_travel_advisor.md)
 
 Your choice of app brief comes with a summary of a report written by the user research department. You should study this document and get a feel for the various needs, profiles, and difficulties faced by the user-base of the application.
 
@@ -65,7 +65,7 @@ A user flow diagram is a flowchart that illustrates the user's path along their 
 A wireframe is a low fidelity representation of your application's UI (drawn within a box that represents the window of a web browser, or the frame of a phone display).
 
 Make a user flow diagram that illustrates the user journey you've chosen.
-You should also build wireframes that illustrate screens and modals in your application, enough to cover all interactions and decision points that the user will experience on their journey.
+You should also build wireframes that illustrate screens and modals in your application, enough to cover all interactions and decision points that the user will experience on their journey. Feel free to use any built-in functionality from your whiteboarding tool, or use a dedicated wireframing tool like [Balsamiq](https://balsamiq.cloud/).
 
 ### Step 6 - Propose a technical architecture
 At this point, you have a much clearer idea of the characteristics of your user-base, and of the application you are trying to build. Make a list of the technical constraints that will impose on your architectural decisions - for the purposes of this exercise, you may make useful assumptions (but please document them as you do so). 
