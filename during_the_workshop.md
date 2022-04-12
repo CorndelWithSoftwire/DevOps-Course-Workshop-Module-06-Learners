@@ -50,13 +50,20 @@ If you have time, go through the process for different personas or journeys.
 
 ### Step 4 - Create user stories
 
-User stories are lower-level versions of the above, whose assembled product may comprise enough functionality to fulfil a user journey (e.g. "*as an online shopper, when I've logged in to the website before, I want to be able to visit the site and immediately start shopping without having to login again, so I don't need to deal with unnecessary friction during my tasks*", or "*as an online shopper, when I have a shopping cart filled with the products I want, and when I am using an iPhone, I want to be able to pay with Apple Pay so I can complete my transaction without having to find my wallet*"). 
+User stories are lower-level versions of the above, whose assembled product may comprise enough functionality to fulfil a user journey (e.g. "*as an online shopper, when I've logged in to the website before, I want to be able to visit the site and immediately start shopping without having to log in again, so I don't need to deal with unnecessary friction during my tasks*". 
 
 Once you have one user journey you are happy with (ideally one that explores the impact of different characteristics amongst your user-base), write out a few user stories to capture the functionality required by your users along this journey. Try to cover some of the key ideas that were inspired by the user research results, which hopefully led to opportunities in the user journey map.
 
 User story writing tips:
-* There is a balance to be made when considering the granularity of user stories. You want something that a developer can take and build (or break down into subtasks then build), but you also need to accurately enough capture what the user is getting out of this feature.
-* When writing "*I need to ... so ...*" consider also including "*I shouldn't <need to .../get returned to the main screen>*" to capture some of the nuances in which we need to meet the user's need.
+* You want something specific enough that developers can take the story and build something (or break down into subtasks then build), but without deciding on implementation details
+* You also want to capture the motivation for the task, i.e. what the user is getting out of this feature.
+* Write acceptance criteria to add detail and cover edge cases. If all these criteria are met, everyone should agree the story has been completed.
+  * Each criterion should be independently testable
+  * You will typically have 1-3 criteria. If you have more than 5, consider dividing the user story into smaller ones.
+  * Acceptance criteria still do not mention implementation details. They cover testable functionality.
+  * Typically written as "Given ..., When ..., Then ...". For example: "Given that I logged in within the last two weeks and did not log out, when I visit the site from the same browser, then the requested page should load with me logged into my account"
+  * Consider including expectations that something doesn't happen, e.g. "I should not be redirected...", or what should happen when something goes wrong. For example: "Given that I logged in recently but reset my password since then ..."
+  * Acceptance criteria can include non-functional requirements (NFRs), e.g. required response times, if it is especially important or likely to be an issue.
 
 ### Step 5 - Create user flow diagrams and wireframes
 
