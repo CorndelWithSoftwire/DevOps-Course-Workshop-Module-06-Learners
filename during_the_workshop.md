@@ -58,6 +58,12 @@ User story writing tips:
 * There is a balance to be made when considering the granularity of user stories. You want something that a developer can take and build (or break down into subtasks then build), but you also need to accurately enough capture what the user is getting out of this feature.
 * When writing "*I need to ... so ...*" consider also including "*I shouldn't <need to .../get returned to the main screen>*" to capture some of the nuances in which we need to meet the user's need.
 
+Pick one of your user stories and write out Acceptance Criteria for it. This might include:
+
+* Must haves, these can be used when testing the ticket to make sure it satisfies the requirements
+* Should haves/nice to haves, these things might improve the user experience or make the feature easier to maintain, but are not required
+* Relevant non-functional requirements, for example around security and performance
+
 ### Step 5 - Create user flow diagrams and wireframes
 
 A user flow diagram is a flowchart that illustrates the user's path along their journey. This includes all interactions they'll need to make, actions they need to take, decisions they need to make, and any pain points encountered. You may discover as a result of creating a user flow diagram ways in which your service could be streamlined in order to provide the same service with less friction - if so, let that become part of your new design!
