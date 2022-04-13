@@ -32,7 +32,6 @@ Your user personas should have:
 * Social and psychological factors, such as:
     * Anxious and benefits from seeing real-time updates on their ticket
     * Attracted by an element of exclusivity
-    * 
 * Their goals in using the app, and their needs met in so doing
 
 ### Step 3 - Create user journeys
