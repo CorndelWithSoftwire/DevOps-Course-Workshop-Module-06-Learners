@@ -65,12 +65,6 @@ User story writing tips:
   * Consider including expectations that something doesn't happen, e.g. "I should not be redirected...", or what should happen when something goes wrong. For example: "Given that I logged in recently but reset my password since then ..."
   * Acceptance criteria can include non-functional requirements (NFRs), e.g. required response times, if it is especially important or likely to be an issue.
 
-Pick one of your user stories and write out Acceptance Criteria for it. This might include:
-
-* Must haves, these can be used when testing the ticket to make sure it satisfies the requirements
-* Should haves/nice to haves, these things might improve the user experience or make the feature easier to maintain, but are not required
-* Relevant non-functional requirements, for example around security and performance
-
 ### Step 5 - Create user flow diagrams and wireframes
 
 A user flow diagram is a flowchart that illustrates the user's path along their journey. This includes all interactions they'll need to make, actions they need to take, decisions they need to make, and any pain points encountered. You may discover as a result of creating a user flow diagram ways in which your service could be streamlined in order to provide the same service with less friction - if so, let that become part of your new design!
