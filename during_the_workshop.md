@@ -55,8 +55,9 @@ Once you have one user journey you are happy with (ideally one that explores the
 
 User story writing tips:
 * You want something specific enough that developers can take the story and build something (or break down into subtasks then build), but without deciding on implementation details
-* You also want to capture the motivation for the task, i.e. what the user is getting out of this feature.
-* Write acceptance criteria to add detail and cover edge cases. If all these criteria are met, everyone should agree the story has been completed.
+* You also want to capture the motivation for the task, i.e. what the user is getting out of this feature. This gives everyone important context when discussing the story and confirms the story will meet a real need.
+* Typically written following this pattern "As ..., when ..., I want to ..., so that ..." 
+* Write acceptance criteria for each story to add detail and cover edge cases. If all these criteria are met, everyone should agree the story has been completed.
   * Each criterion should be independently testable
   * You will typically have 1-3 criteria. If you have more than 5, consider dividing the user story into smaller ones.
   * Acceptance criteria still do not mention implementation details. They cover testable functionality.
